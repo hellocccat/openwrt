@@ -31,7 +31,8 @@ EOF
 
 platform_do_upgrade() {
 	case "$(board_name)" in
-	8dev,jalapeno)
+	8dev,jalapeno |\
+	mobipromo,cm520-79f)
 		nand_do_upgrade "$ARGV"
 		;;
 	asus,rt-ac58u)

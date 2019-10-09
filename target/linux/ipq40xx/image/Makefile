@@ -126,6 +126,17 @@ define Device/meraki_mr33
 endef
 TARGET_DEVICES += meraki_mr33
 
+define Device/mobipromo_cm520-79f
+	$(call Device/FitImage)
+	$(call Device/UbiFit)
+	DEVICE_DTS := qcom-ipq4019-cm520-79f
+	BLOCKSIZE := 128k
+	PAGESIZE := 2048
+	DEVICE_TITLE := MobiPromo CM520-79F
+endef
+TARGET_DEVICES += mobipromo_cm520-79f
+
+
 define Device/netgear_ex61x0v2
 	$(call Device/DniImage)
 	KERNEL_SIZE := 3080192
