@@ -13,7 +13,7 @@ index b5bd3de87..5a52a0b19 100644
 --- a/arch/arm/boot/dts/Makefile
 +++ b/arch/arm/boot/dts/Makefile
 
-@@ -785,11 +785,35 @@ dtb-$(CONFIG_ARCH_QCOM) += \
+@@ -785,11 +785,36 @@ dtb-$(CONFIG_ARCH_QCOM) += \
  	qcom-apq8074-dragonboard.dtb \
  	qcom-apq8084-ifc6540.dtb \
  	qcom-apq8084-mtp.dtb \
